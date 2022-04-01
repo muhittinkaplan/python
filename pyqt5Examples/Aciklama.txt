@@ -1,0 +1,13 @@
+Both solutions are good, they have advantages and disadvantages that have to be weighed with what you want to do, and many times it will depend on the taste of the programmer.
+pyuic5:
+
+    Allows inheritance [+]
+    There is no additional load when running the application [+]
+    Convert the .ui to .py every time the file is modified [-]
+uic.loadUi():
+    You do not have to modify anything when modifying the .ui [+]
+    Compilation extra time [+]
+    Does not allow inheritance (You could implement the inheritance using uic.loadUiType()) [-]
+    Does not allow the use of inspect [-].
+
+
